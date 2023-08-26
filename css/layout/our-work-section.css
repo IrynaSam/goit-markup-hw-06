@@ -1,0 +1,31 @@
+/* =========================MOBILE======================= */
+@media screen and (max-width: 767px) {
+  .our-work {
+    display: none;
+  }
+}
+
+/* ====================================TABLET======================== */
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .our-work {
+    display: none;
+  }
+}
+
+/* =======================================DESKTOP============================== */
+@media screen and (min-width: 1158px) {
+  .background-white {
+    padding-bottom: 120px;
+  }
+
+  .our-work-title {
+    margin-bottom: 72px;
+  }
+
+  .img-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+  }
+}

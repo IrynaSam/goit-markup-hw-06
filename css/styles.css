@@ -259,7 +259,6 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  /* margin-bottom: 32px; */
 }
 
 .team-card-social-links {

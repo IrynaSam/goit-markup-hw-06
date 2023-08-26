@@ -1,0 +1,132 @@
+/* ==========================MOBILE================================= */
+@media screen and (max-width: 767px) {
+  .benefits-section {
+    background-color: var(--primary-white-color);
+    padding: 96px 0;
+  }
+  .benefits-icon {
+    display: none;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .benefits-title {
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-title-color);
+  }
+
+  .benefits-list-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+  .text {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    line-height: 1.5;
+  }
+}
+
+/* ==============================TABLET============================= */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .benefits-icon {
+    display: none;
+  }
+  .benefits-section {
+    background-color: var(--primary-white-color);
+    padding: 96px 0;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .benefits-title {
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-title-color);
+  }
+
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    margin: 0;
+    padding: 0;
+  }
+  .benefits-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+/* ================================DESKTOP============================ */
+@media screen and (min-width: 1158px) {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .benefits-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--btn-bg-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .benefits-list {
+    display: flex;
+    gap: 24px;
+  }
+  .benefits-list-item {
+    width: 264px;
+  }
+  .benefits-title {
+    margin-bottom: 8px;
+  }
+  .text {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+  .benefits-section {
+    background-color: var(--primary-white-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

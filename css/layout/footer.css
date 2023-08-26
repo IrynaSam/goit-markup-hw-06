@@ -1,0 +1,491 @@
+/* ==========================MOBILE=============================== */
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: var(--background-dark-color);
+  }
+  /* .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  } */
+  .container {
+    padding: 0 15px;
+  }
+
+  .footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+    color: var(--primary-acent-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
+
+  .studio-footer {
+    color: var(--btn-bg-color);
+  }
+  .text-footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--btn-bg-color);
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+  }
+
+  .footer-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+  }
+
+  .footer-socials-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .text-socials {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+    margin-bottom: 16px;
+  }
+
+  .footer-socials-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-acent-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transitio-dur-and-func);
+  }
+
+  .team-card-social-list-item-footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-acent-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--transitio-dur-and-func);
+  }
+
+  .team-card-social-list-item-footer:hover,
+  .team-card-social-list-item-footer:focus {
+    background-color: var(--success-color);
+  }
+
+  .social-icon-item {
+    fill: var(--btn-bg-color);
+  }
+
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-label {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .text-footer-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--primary-white-color);
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-input {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    width: 100%;
+    height: 40px;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: var(--primary-white-color);
+    border: 1px solid var(--primary-white-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    margin-bottom: 16px;
+  }
+
+  .footer-input::placeholder {
+    color: var(--primary-white-color);
+  }
+
+  .subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    background-color: var(--primary-acent-color);
+    border: none;
+    border-radius: 4px;
+    transform: background-color var(--transitio-dur-and-func);
+  }
+
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background-color: var(--active-link-color);
+  }
+
+  .subscribe-btn-icon {
+    margin-left: 16px;
+    fill: var(--primary-white-color);
+  }
+}
+
+/* =============================TABLET================================ */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer {
+    width: 100%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: var(--background-dark-color);
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+    color: var(--primary-acent-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
+
+  .studio-footer {
+    color: var(--btn-bg-color);
+  }
+  .text-footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--btn-bg-color);
+    width: 264px;
+  }
+
+  .footer-socials-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .text-socials {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+    margin-bottom: 16px;
+  }
+
+  .footer-socials-content {
+    display: flex;
+    gap: 24px;
+    padding-left: 92px;
+    margin-bottom: 72px;
+  }
+
+  .footer-socials-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .footer-socials-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-acent-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transitio-dur-and-func);
+  }
+
+  .team-card-social-list-item-footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-acent-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--transitio-dur-and-func);
+  }
+
+  .team-card-social-list-item-footer:hover,
+  .team-card-social-list-item-footer:focus {
+    background-color: var(--success-color);
+  }
+
+  .social-icon-item {
+    fill: var(--btn-bg-color);
+  }
+
+  .footer-subscribe {
+    padding-left: 92px;
+  }
+
+  .text-footer-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--primary-white-color);
+  }
+  .text-footer-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--primary-white-color);
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-input {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: var(--primary-white-color);
+    border: 1px solid var(--primary-white-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+  }
+
+  .footer-input::placeholder {
+    color: var(--primary-white-color);
+  }
+
+  .subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    background-color: var(--primary-acent-color);
+    border: none;
+    border-radius: 4px;
+    transform: background-color var(--transitio-dur-and-func);
+  }
+
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background-color: var(--active-link-color);
+  }
+
+  .subscribe-btn-icon {
+    margin-left: 16px;
+    fill: var(--primary-white-color);
+  }
+}
+
+/* ====================================DESKTOP=============================== */
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--background-dark-color);
+  }
+
+  .footer-container {
+    display: flex;
+    gap: 120px;
+    align-items: baseline;
+  }
+  .footer-content {
+    margin-right: 80px;
+  }
+
+  .footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+    color: var(--primary-acent-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
+
+  .studio-footer {
+    color: var(--btn-bg-color);
+  }
+  .text-footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--btn-bg-color);
+    width: 264px;
+  }
+
+  .footer-socials-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .footer-socials-content {
+    display: flex;
+  }
+
+  .text-socials {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+    margin-bottom: 16px;
+  }
+
+  .footer-socials-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .footer-socials-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-acent-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transitio-dur-and-func);
+  }
+
+  .team-card-social-list-item-footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-acent-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--transitio-dur-and-func);
+  }
+
+  .team-card-social-list-item-footer:hover,
+  .team-card-social-list-item-footer:focus {
+    background-color: var(--success-color);
+  }
+
+  .social-icon-item {
+    fill: var(--btn-bg-color);
+  }
+
+  .text-footer-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--primary-white-color);
+  }
+  .text-footer-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--primary-white-color);
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-input {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: var(--primary-white-color);
+    border: 1px solid var(--primary-white-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+  }
+
+  .footer-input::placeholder {
+    color: var(--primary-white-color);
+  }
+
+  .subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    background-color: var(--primary-acent-color);
+    border: none;
+    border-radius: 4px;
+    transform: background-color var(--transitio-dur-and-func);
+  }
+
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background-color: var(--active-link-color);
+  }
+
+  .subscribe-btn-icon {
+    margin-left: 16px;
+    fill: var(--primary-white-color);
+  }
+}

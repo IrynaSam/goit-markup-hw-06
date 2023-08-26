@@ -1,0 +1,210 @@
+/* ============================MOBILE===================================== */
+
+@media screen and (max-width: 767px) {
+  .hero {
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background-dark-color);
+    padding-bottom: 112px;
+    padding-top: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/hero/bg-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 54px;
+  }
+  .page-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-white-color);
+  }
+  .order-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-acent-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 72px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    min-width: 169px;
+    color: var(--primary-white-color);
+    transition: background-color var(--transitio-dur-and-func);
+  }
+
+  .order-btn:focus {
+    background-color: var(--active-link-color);
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../../images/hero/bg-mobilert.jpg');
+    }
+  }
+}
+
+/* ===============================TABLET=================================== */
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .hero {
+    min-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background-dark-color);
+    /* padding-bottom: 112px;
+    padding-top: 112px; */
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/hero/bg-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 136px;
+  }
+  .page-title {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+  }
+  .order-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    border: none;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: var(--primary-acent-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    min-width: 169px;
+    color: var(--primary-white-color);
+    transition: background-color var(--transitio-dur-and-func);
+  }
+
+  .order-btn:focus {
+    background-color: var(--active-link-color);
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../../images/hero/bg-tabletrt.jpg');
+    }
+  }
+}
+
+/* ====================================================DESKTOP================================= */
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background-dark-color);
+    padding-bottom: 188px;
+    padding-top: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/hero/hero-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .order-btn {
+    background-color: var(--primary-acent-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 48px;
+    border: 0;
+    min-width: 169px;
+    transition: background-color var(--transitio-dur-and-func);
+  }
+  .order-btn:hover,
+  .order-btn:focus {
+    background-color: var(--active-link-color);
+  }
+
+  .page-title {
+    color: var(--primary-white-color);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    max-width: 496px;
+  }
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../../images/hero/bg-desktoprt.jpg');
+    }
+  }
+}

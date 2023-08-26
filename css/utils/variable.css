@@ -1,0 +1,15 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --primary-text-color: #434455;
+  --primary-title-color: #2e2f42;
+  --primary-white-color: #ffffff;
+  --primary-acent-color: #4d5ae5;
+  --background-dark-color: #2e2f42;
+  --active-link-color: #404bbf;
+  --btn-bg-color: #f4f4fd;
+  --success-color: #31d0aa;
+  --subtle-text: #8e8f99;
+  --accent-hairlines-color: #e7e9fc;
+  --modal-background-color: #fcfcfc;
+  --transitio-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
