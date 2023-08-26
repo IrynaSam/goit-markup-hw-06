@@ -177,6 +177,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    width: 584px;
   }
 
   .footer-logo {
@@ -219,7 +220,6 @@
   .footer-socials-content {
     display: flex;
     gap: 24px;
-    padding-left: 92px;
     margin-bottom: 72px;
   }
 
@@ -261,9 +261,9 @@
     fill: var(--btn-bg-color);
   }
 
-  .footer-subscribe {
+  /* .footer-subscribe {
     padding-left: 92px;
-  }
+  } */
 
   .text-footer-subscribe {
     margin-bottom: 16px;
